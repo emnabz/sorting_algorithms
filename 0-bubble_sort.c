@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "sort.h"
 /**
 *bubble_sort - sorts an array  of integers in ascending orde
@@ -12,7 +10,6 @@ size_t i, j;
 int n;
 if (size < 2)
 return;
-
 for (i = 0; i < size - 1; i++)
 {
 for (j = 0; j < size - i - 1; j++)
